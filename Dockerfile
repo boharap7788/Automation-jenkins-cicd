@@ -4,8 +4,8 @@ COPY . /app
 
 EXPOSE 9000
 
-ADD /target/springBoot-Project.jar springBoot-Project.jar
+ADD /target/springboot-project.jar springboot-project.jar
 
-CMD [ "java","-jar","springBoot-Project.jar" ]
+CMD [ "java","-jar","springboot-project.jar" ]
 
-#ENTRYPOINT [ "java","-jar","/springBoot-Project.jar" ]
+#ENTRYPOINT [ "java","-jar","/springboot-project.jar" ]

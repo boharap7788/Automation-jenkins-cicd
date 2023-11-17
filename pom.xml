@@ -41,7 +41,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>springBoot-Project.jar</finalName>
+		<finalName>springboot-project.jar</finalName>
 	</build>
 
 </project>
